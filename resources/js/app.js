@@ -13,7 +13,7 @@ import Vuetify from 'vuetify'
 
 
 Vue.use(Vuetify);
-Vue.component('app-home', require('./components/AppHome.vue'));
+Vue.component('AppHome', require('./components/AppHome.vue'));
  const app =  new Vue({
       el: '#app'
     })
